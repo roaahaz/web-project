@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Sans Pro">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="visitus.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  </head>
+  <body>
+
+   <p ><img style=" float: left;" src="https://pier24.org/pilarafoundation/wp-content/themes/p24/images/logo.svg" alt="#" width="100"  height="80"/><ul>
+  <li><a href="#home" onclick=" home()">Home</a></li>
+  <li><a href="#news" onclick=" about()">About</a></li>
+  <li><a href="#contact" onclick=" photo()">Photos</a></li>
+  <li><a href="#about" onclick="visit()">Visit Us</a></li>
+</ul></p>
+
+</body>
+  <body >
+   <!-- Header -->
+  <header class="w3-container w3-center  w3-padding-32">
+    <h1 class="w3-xxlarge"><b>Visit Us</b></h1>
+  </header>
+
+    <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="https://www.futurereference.co/authority/wp-content/uploads/2015/10/13_About_Face-1240x481.jpg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+	 <!--subscribe--><h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h6>
+		
+	</div>
+  </header>
+<!--information-->
+<div class="w3-row w3-section">
+  <div class="w3-third w3-center w3-large "style="height:110px" >
+    <strong>General Information</strong><br>Admission is alwaya free<br><span class="w3-opacity">Disabled Ramp access</span>
+    </div>
+  <div class="w3-third w3-center w3-large"style="height:110px">
+    <strong>Opening Hours</strong><br><span class="w3-opacity">Monday - Friday 10am-6pm</span><br>
+		  <span class="w3-opacity">Cosed Sundays and Public Holidays</span>
+  </div>
+  <div class="w3-third w3-center w3-large"style="height:110px" ">
+    <i class="fa fa-envelope" style="width:30px"> </i><strong>send email</strong><br>
+   <a href="mailto:arzansultan@gmail.com">Razan</a><br>
+   <a href="mailto:roaaa3036@gmail.com">Roaa</a><br>
+   <a href="mailto:Rhadwan1979@gmail.com">Roqaya</a><br>
+   <a href="mailto:alanoud.8ms@gmail.com">Alanoud</a><br>
+  </div>
+  </div>
+  <!--contact-->
+  <br><br><br><br><br><br>
+<div class="w3-white" id="Contact">
+    <div class="w3-center">
+	 <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>CONTACT</h4>
+        </div>
+<h2 class="w3-wide"></h2>
+ <p class="w3-opacity"><i>Book now or just send us a message</i></p>
+<p class="w3-white w3-text-black w3-left-align">
+   <strong> Thank you for chooseing us,we are glad to serve you <strong> </p>
+      </div>
+	  <form action="send.php" method="post">
+<form action="/action_page.php" target="_blank">
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" name="Name"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="tel" placeholder="Your Phone Number" name="Service"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Enter Your Email" id="email" name="email"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time"  name="date" value="2020-11-16T20:00"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" name="message"></p>
+<p><button class="w3-button w3-round w3-pale-red w3-block" type="submit">SEND MESSAGE</button></p>
+</form>
+</form>
+</div>
+</div>
+<!--subscribe-->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+  <script>
+    
+  function home() {
+  location.replace("http://localhost/contact/PIER24PH.php")
+}
+function photo() {
+  location.replace("http://localhost/contact/Photo.php")
+}
+function about() {
+  location.replace("http://localhost/contact/about.php")
+}
+function visit() {
+  location.replace("http://localhost/contact/connect.php#home")
+}
+</script>
+</body>
+</html>

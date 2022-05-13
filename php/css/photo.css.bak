@@ -1,0 +1,39 @@
+ body{
+ background-color:black;}
+    body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+    .w3-quarter img{margin-bottom: -6px; cursor: pointer}
+    .w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 90;
+  overflow: hidden;
+  position: absolute;
+  top: 120px;
+  right: 35px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 90%;
+}
+
+li a:hover {
+  background-color: #111;
+}
+ body {
+  background-image: url("https://pier24.org/pilarafoundation/wp-content/uploads/2015/02/pier24-16.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  background-size: cover;
+}

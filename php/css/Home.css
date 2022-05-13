@@ -1,0 +1,89 @@
+ body {
+  background-image: url("09_Inaugural.jpg");
+  color:white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.text-block {
+  
+  bottom: 230px;
+  right: 500px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 450%;
+ font-family: Arial;
+} 
+.para {
+  bottom: 240px;
+  color: white;
+  padding-left: 40px;
+  font-size: 180%;
+  text-align:right;
+  font-family: Courier New;
+  opacity:0.8;
+} 
+.find {
+  
+  bottom: 100px;
+  color: white;
+  padding-left: 20px;
+  text-align:left;
+  font-family: Courier New;
+  font-size: 180%;
+ opacity:0.8;
+} 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 100;
+  overflow: hidden;
+  position: absolute;
+  top: 65px;
+  right: 70px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 110%;
+}
+
+li a:hover {
+  background-color: #111;
+}
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+
+}
+* {
+  box-sizing: border-box;
+}
+/* Navbar links */
+.topnav a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 16%;
+  }
+}
